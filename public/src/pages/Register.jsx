@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import styled from "styled-components";
 import { useNavigate, Link } from "react-router-dom";
-import Logo from "../assets/logo.svg";
+import Logo from "../assets/OIG.90s-removebg-preview.png";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { registerRoute } from "../utils/APIRoutes";
@@ -135,7 +135,7 @@ const FormContainer = styled.div`
   justify-content: center;
   gap: 1rem;
   align-items: center;
-  background-color: #131324;
+  background-color: #D2E3C8;
   .brand {
     display: flex;
     align-items: center;
@@ -154,14 +154,14 @@ const FormContainer = styled.div`
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    background-color: #00000076;
+    background-color: #739072;
     border-radius: 2rem;
     padding: 3rem 5rem;
   }
   input {
     background-color: transparent;
     padding: 1rem;
-    border: 0.1rem solid #4e0eff;
+    border: 0.1rem solid #4F6F52;
     border-radius: 0.4rem;
     color: white;
     width: 100%;
@@ -172,7 +172,7 @@ const FormContainer = styled.div`
     }
   }
   button {
-    background-color: #4e0eff;
+    background-color: #4F6F52;
     color: white;
     padding: 1rem 2rem;
     border: none;
@@ -182,14 +182,14 @@ const FormContainer = styled.div`
     font-size: 1rem;
     text-transform: uppercase;
     &:hover {
-      background-color: #4e0eff;
+      background-color: #4F6F52;
     }
   }
   span {
     color: white;
     text-transform: uppercase;
     a {
-      color: #4e0eff;
+      color: #4F6F52;
       text-decoration: none;
       font-weight: bold;
     }

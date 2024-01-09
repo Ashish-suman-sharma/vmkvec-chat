@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import styled from "styled-components";
-import Logo from "../assets/logo.svg";
+import Logo from "../assets/OIG.90s-removebg-preview.png";
 
 export default function Contacts({ contacts, changeChat }) {
   const [currentUserName, setCurrentUserName] = useState(undefined);
@@ -67,7 +67,7 @@ const Container = styled.div`
   display: grid;
   grid-template-rows: 10% 75% 15%;
   overflow: hidden;
-  background-color: #080420;
+  background-color: #4F6F52;
   .brand {
     display: flex;
     align-items: center;
@@ -123,7 +123,7 @@ const Container = styled.div`
   }
 
   .current-user {
-    background-color: #0d0d30;
+    background-color: #86A789;
     display: flex;
     justify-content: center;
     align-items: center;

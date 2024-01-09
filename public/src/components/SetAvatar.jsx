@@ -79,9 +79,8 @@ export default function SetAvatar() {
             {avatars.map((avatar, index) => {
               return (
                 <div
-                  className={`avatar ${
-                    selectedAvatar === index ? "selected" : ""
-                  }`}
+                  className={`avatar ${selectedAvatar === index ? "selected" : ""
+                    }`}
                 >
                   <img
                     src={`data:image/svg+xml;base64,${avatar}`}
@@ -140,11 +139,11 @@ const Container = styled.div`
       }
     }
     .selected {
-      border: 0.4rem solid #4e0eff;
+      border: 0.4rem solid #4F6F52;
     }
   }
   .submit-btn {
-    background-color: #4e0eff;
+    background-color: #4F6F52;
     color: white;
     padding: 1rem 2rem;
     border: none;
@@ -154,7 +153,7 @@ const Container = styled.div`
     font-size: 1rem;
     text-transform: uppercase;
     &:hover {
-      background-color: #4e0eff;
+      background-color: #4F6F52;
     }
   }
 `;
