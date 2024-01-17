@@ -11,7 +11,7 @@ VMKVEC-CHAT is chat application build with the power of MERN Stack. You can find
 
 
 ```shell
-git clone https://github.com/koolkishan/chat-app-react-nodejs
+git clone 
 cd chat-app-react-nodejs
 ```
 
